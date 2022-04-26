@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>CalculatorC2</h2>
+    <h2>P180 CompositionAPI2</h2>
     <div>
       <input type="text" v-model="state.num1" />
       <span> + </span>

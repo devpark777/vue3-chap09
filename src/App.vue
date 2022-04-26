@@ -9,7 +9,6 @@
     <router-link to="/p182">CompositionAPI4(p182)</router-link> |
     <router-link to="/p183">9.1.3(LifeCycle Hooks)</router-link> |
     <router-link to="/p184">9.1.4(Provider/Inject)</router-link> |
-    <router-link to="/bst">BootStrapTest</router-link> |
     <router-link to="/p188">9.2(Mixins각각)</router-link> |
     <router-link to="/p191">9.2(Mixins공용)</router-link> |
     <router-link to="/p192">9.3(Custom Directives)</router-link> |

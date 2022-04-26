@@ -56,11 +56,6 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/CompositionAPIProvide.vue')
   },
   {
-    path: '/bst',
-    name: 'bootStrapTest',
-    component: () => import(/* webpackChunkName: "about" */ '../views/BootStrapTest.vue')
-  },
-  {
     path: '/p188',
     name: 'mixinstest',
     component: () => import(/* webpackChunkName: "about" */ '../views/MixinsTest.vue')

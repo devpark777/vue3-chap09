@@ -26,6 +26,13 @@ app.directive('focus', {
     el.focus()
   }
 })
+app.directive('pin', {
+    mounted(el, binding) {
+        el.style.position = 'fixed';
+        el.style.top = binding.value.top + 'px';
+        el.style.left = binding.value.left + 'px';             
+    },
+})
 app.use(router)
 app.use(i18nPlugin, i18nStrings)
 app.mixin(mixins)

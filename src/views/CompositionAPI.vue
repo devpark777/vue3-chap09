@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Calculator</h2>
+    <h2>P179 CompositionAPI</h2>
     <div>
       <input type="text" v-model="state.num1" @keyup="plusNumbers" />
       <span> + </span>

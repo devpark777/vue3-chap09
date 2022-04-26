@@ -1,6 +1,6 @@
 <template>
  <div>
-   <h2>Calculator3</h2>
+   <h2>P181 CompositionAPI3</h2>
    <div>
      <input type="text" v-model="num1" />
      <span> + </span>
@@ -11,7 +11,7 @@
  </div>
 </template>
 <script>
-import {reactive, computed, toRefs} from 'vue'; //toRefs 추가
+import {reactive, computed,toRefs} from 'vue'; //toRefs 추가
  
 function plusCalculator() {
  let state = reactive({
@@ -20,6 +20,7 @@ function plusCalculator() {
      result: computed(() => parseInt(state.num1) + parseInt(state.num2))
    });
  
+  // return state; 
    return toRefs(state);  //반응형으로 선언된 num1, num2, result가 외부 function에서 정상적으로 동작하기 위해서는 toRefs를 사용해야 함 
 }
  

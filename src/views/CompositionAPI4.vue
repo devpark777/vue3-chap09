@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Calculator4</h2>
+        <h2>P182 CompositionAPI4</h2>
         <input type="text" v-model="num1" />
         <span> + </span>
         <input type="text" v-model="num2" />

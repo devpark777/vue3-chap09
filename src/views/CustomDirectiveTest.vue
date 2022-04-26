@@ -5,6 +5,7 @@
    <div>
        <p v-pin="position" class="pin">페이지 고정영역</p>
    </div>
+   <div></div>
 </template>
 
 <script>
@@ -15,13 +16,13 @@ export default {
 //         el.focus();
 //       },
 //     },
-     pin : {
-         mounted(el, binding) {
-             el.style.position = 'fixed';
-             el.style.top = binding.value.top + 'px';
-             el.style.left = binding.value.left + 'px';             
-         },
-     }
+    //  pin : {
+    //      mounted(el, binding) {
+    //          el.style.position = 'fixed';
+    //          el.style.top = binding.value.top + 'px';
+    //          el.style.left = binding.value.left + 'px';             
+    //      },
+    //  }
   },
   data() {
       return {
